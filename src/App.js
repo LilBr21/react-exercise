@@ -1,11 +1,14 @@
 import Card from './components/Card/Card';
+import data from './data';
 
 import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <Card />
+      {data.map((person) => 
+        <Card {...person}/>
+      )}
     </div>
   );
 }
