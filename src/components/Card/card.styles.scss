@@ -50,3 +50,25 @@
 .medal-quant {
     font-size: 40px;
 }
+
+@media (max-width: 1150px) {
+    .card-container {
+        width: 45%;
+    }
+}
+
+@media (max-width: 730px) {
+    .card-container {
+        width: 60%;
+    }
+}
+
+@media (max-width: 550px) {
+    .card-container {
+        width: 90%;
+    }
+
+    .medals-container {
+        width: 15rem;
+    }
+}
